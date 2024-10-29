@@ -3,4 +3,4 @@ E-commerce frontend  is developed using tailwind css.
 
 
 
-https://images.app.goo.gl/PG3z9KUyo2uvw3Yx6
+https://images.app.goo.gl/cX71G648H7gx2VJB8
