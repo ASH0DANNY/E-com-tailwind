@@ -51,8 +51,8 @@ const LandingPage = () => {
     <>
       <div className="block w-full bg-gray-300">
         <div className="block w-full h-[380px] bg-black mb-[10px]"></div>
-        <div className="w-full p-3 flex mt-5 mb-10 ml-auto mr-auto rounded-lg align-middle min-h-60 overflow-hidden">
-          <CategCards />;
+        <div className="w-full p-3 flex mt-5 mb-10 ml-auto mr-auto rounded-lg min-h-60 overflow-hidden">
+          <CategCards />
         </div>
 
         <div className="flex flex-wrap h-auto w-[98%] px-6 py-10 items-center bg-white overflow-hidden gap-10  ml-auto mr-auto mt-10 mb-10 rounded-lg">
@@ -67,19 +67,6 @@ const LandingPage = () => {
         </div>
         <div className="flex-wrap h-[400px] w-4/5 p-3 bg-white ml-auto mr-auto mt-10 mb-10 rounded-lg">
           <span className="text-xs">Container 3</span>
-          <label>
-            <input
-              type="radio"
-              className="forced-colors:appearance-auto appearance-none"
-            />
-            <p className="forced-colors:block hidden">Cyan</p>
-            <div class="forced-colors:hidden h-6 w-6 rounded-full bg-cyan-200">
-              1
-            </div>
-            <div class="forced-colors:hidden h-6 w-6 rounded-full bg-cyan-500">
-              2
-            </div>
-          </label>
         </div>
       </div>
     </>
