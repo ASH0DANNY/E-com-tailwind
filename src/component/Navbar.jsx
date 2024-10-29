@@ -7,7 +7,7 @@ import PersonIcon from "@mui/icons-material/Person";
 const Navbar = () => {
   return (
     <>
-      <div className="fixed z-40 flex bg-green-100 content-center justify-between text-green-900 shadow-lg text-lg min-w-full h-[60px] p-1">
+      <div className="fixed z-40 flex bg-green-100 content-center justify-between text-green-900 shadow-lg text-lg min-w-full h-[60px] px-9 py-2">
         {/*For floating in middle with rounded edges <div className="fixed left-[40px] top-2 z-40 flex rounded-xl bg-green-100 content-center justify-between text-green-900 shadow-lg text-lg w-[94%] h-[60px] p-1"> */}
         <div className="w-3/5 min-h-full">
           <a href="/">
