@@ -50,12 +50,14 @@ const LandingPage = () => {
   return (
     <>
       <div className="block w-full bg-gray-300">
-        <div className="block w-full h-[380px] bg-black mb-[10px]"></div>
-        <div className="w-full p-3 flex mt-5 mb-10 ml-auto mr-auto rounded-lg min-h-60 overflow-hidden">
+        <div className="block w-full h-[380px] bg-black pt-[60px] mb-[10px] text-white">
+          Carrosel Image
+        </div>
+        <div className="w-full p-3 flex justify-center items-center mt-5 mb-10 ml-auto mr-auto rounded-lg min-h-60 overflow-hidden">
           <CategCards />
         </div>
 
-        <div className="flex flex-wrap h-auto w-[98%] px-6 py-10 items-center bg-white overflow-hidden gap-10  ml-auto mr-auto mt-10 mb-10 rounded-lg">
+        <div className="flex flex-wrap justify-center items-center h-auto w-[98%] px-6 py-10 items-center bg-white overflow-hidden gap-10  ml-auto mr-auto mt-10 mb-10 rounded-lg">
           <p className="w-full text-center mb-5">Container 2</p>
           {products.map((product) => {
             return (
